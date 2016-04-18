@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC10A9B91CC48F4100201330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10A9B81CC48F4100201330 /* main.m */; };
+		AC10A9BC1CC48F4100201330 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10A9BB1CC48F4100201330 /* AppDelegate.m */; };
+		AC10A9BF1CC48F4100201330 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10A9BE1CC48F4100201330 /* FirstViewController.m */; };
+		AC10A9C21CC48F4100201330 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10A9C11CC48F4100201330 /* SecondViewController.m */; };
+		AC10A9C51CC48F4100201330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10A9C31CC48F4100201330 /* Main.storyboard */; };
+		AC10A9C71CC48F4100201330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC10A9C61CC48F4100201330 /* Assets.xcassets */; };
+		AC10A9CA1CC48F4100201330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10A9C81CC48F4100201330 /* LaunchScreen.storyboard */; };
+		AC10A9D51CC48F4100201330 /* imdeli_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10A9D41CC48F4100201330 /* imdeli_iosTests.m */; };
+		AC10A9E01CC48F4100201330 /* imdeli_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10A9DF1CC48F4100201330 /* imdeli_iosUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC10A9D11CC48F4100201330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC10A9AC1CC48F4100201330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC10A9B31CC48F4100201330;
+			remoteInfo = "imdeli-ios";
+		};
+		AC10A9DC1CC48F4100201330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC10A9AC1CC48F4100201330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC10A9B31CC48F4100201330;
+			remoteInfo = "imdeli-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC10A9B41CC48F4100201330 /* imdeli-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "imdeli-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC10A9B81CC48F4100201330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC10A9BA1CC48F4100201330 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC10A9BB1CC48F4100201330 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC10A9BD1CC48F4100201330 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AC10A9BE1CC48F4100201330 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AC10A9C01CC48F4100201330 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AC10A9C11CC48F4100201330 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AC10A9C41CC48F4100201330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC10A9C61CC48F4100201330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC10A9C91CC48F4100201330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC10A9CB1CC48F4100201330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC10A9D01CC48F4100201330 /* imdeli-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imdeli-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC10A9D41CC48F4100201330 /* imdeli_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imdeli_iosTests.m; sourceTree = "<group>"; };
+		AC10A9D61CC48F4100201330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC10A9DB1CC48F4100201330 /* imdeli-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "imdeli-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC10A9DF1CC48F4100201330 /* imdeli_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imdeli_iosUITests.m; sourceTree = "<group>"; };
+		AC10A9E11CC48F4100201330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC10A9B11CC48F4100201330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A9CD1CC48F4100201330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A9D81CC48F4100201330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC10A9AB1CC48F4100201330 = {
+			isa = PBXGroup;
+			children = (
+				AC10A9B61CC48F4100201330 /* imdeli-ios */,
+				AC10A9D31CC48F4100201330 /* imdeli-iosTests */,
+				AC10A9DE1CC48F4100201330 /* imdeli-iosUITests */,
+				AC10A9B51CC48F4100201330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC10A9B51CC48F4100201330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC10A9B41CC48F4100201330 /* imdeli-ios.app */,
+				AC10A9D01CC48F4100201330 /* imdeli-iosTests.xctest */,
+				AC10A9DB1CC48F4100201330 /* imdeli-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC10A9B61CC48F4100201330 /* imdeli-ios */ = {
+			isa = PBXGroup;
+			children = (
+				AC10A9BA1CC48F4100201330 /* AppDelegate.h */,
+				AC10A9BB1CC48F4100201330 /* AppDelegate.m */,
+				AC10A9BD1CC48F4100201330 /* FirstViewController.h */,
+				AC10A9BE1CC48F4100201330 /* FirstViewController.m */,
+				AC10A9C01CC48F4100201330 /* SecondViewController.h */,
+				AC10A9C11CC48F4100201330 /* SecondViewController.m */,
+				AC10A9C31CC48F4100201330 /* Main.storyboard */,
+				AC10A9C61CC48F4100201330 /* Assets.xcassets */,
+				AC10A9C81CC48F4100201330 /* LaunchScreen.storyboard */,
+				AC10A9CB1CC48F4100201330 /* Info.plist */,
+				AC10A9B71CC48F4100201330 /* Supporting Files */,
+			);
+			path = "imdeli-ios";
+			sourceTree = "<group>";
+		};
+		AC10A9B71CC48F4100201330 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC10A9B81CC48F4100201330 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC10A9D31CC48F4100201330 /* imdeli-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC10A9D41CC48F4100201330 /* imdeli_iosTests.m */,
+				AC10A9D61CC48F4100201330 /* Info.plist */,
+			);
+			path = "imdeli-iosTests";
+			sourceTree = "<group>";
+		};
+		AC10A9DE1CC48F4100201330 /* imdeli-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC10A9DF1CC48F4100201330 /* imdeli_iosUITests.m */,
+				AC10A9E11CC48F4100201330 /* Info.plist */,
+			);
+			path = "imdeli-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC10A9B31CC48F4100201330 /* imdeli-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC10A9E41CC48F4100201330 /* Build configuration list for PBXNativeTarget "imdeli-ios" */;
+			buildPhases = (
+				AC10A9B01CC48F4100201330 /* Sources */,
+				AC10A9B11CC48F4100201330 /* Frameworks */,
+				AC10A9B21CC48F4100201330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "imdeli-ios";
+			productName = "imdeli-ios";
+			productReference = AC10A9B41CC48F4100201330 /* imdeli-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC10A9CF1CC48F4100201330 /* imdeli-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC10A9E71CC48F4100201330 /* Build configuration list for PBXNativeTarget "imdeli-iosTests" */;
+			buildPhases = (
+				AC10A9CC1CC48F4100201330 /* Sources */,
+				AC10A9CD1CC48F4100201330 /* Frameworks */,
+				AC10A9CE1CC48F4100201330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC10A9D21CC48F4100201330 /* PBXTargetDependency */,
+			);
+			name = "imdeli-iosTests";
+			productName = "imdeli-iosTests";
+			productReference = AC10A9D01CC48F4100201330 /* imdeli-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC10A9DA1CC48F4100201330 /* imdeli-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC10A9EA1CC48F4100201330 /* Build configuration list for PBXNativeTarget "imdeli-iosUITests" */;
+			buildPhases = (
+				AC10A9D71CC48F4100201330 /* Sources */,
+				AC10A9D81CC48F4100201330 /* Frameworks */,
+				AC10A9D91CC48F4100201330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC10A9DD1CC48F4100201330 /* PBXTargetDependency */,
+			);
+			name = "imdeli-iosUITests";
+			productName = "imdeli-iosUITests";
+			productReference = AC10A9DB1CC48F4100201330 /* imdeli-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC10A9AC1CC48F4100201330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Quan Le";
+				TargetAttributes = {
+					AC10A9B31CC48F4100201330 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4KK4N76SVZ;
+					};
+					AC10A9CF1CC48F4100201330 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4KK4N76SVZ;
+						TestTargetID = AC10A9B31CC48F4100201330;
+					};
+					AC10A9DA1CC48F4100201330 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4KK4N76SVZ;
+						TestTargetID = AC10A9B31CC48F4100201330;
+					};
+				};
+			};
+			buildConfigurationList = AC10A9AF1CC48F4100201330 /* Build configuration list for PBXProject "imdeli-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC10A9AB1CC48F4100201330;
+			productRefGroup = AC10A9B51CC48F4100201330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC10A9B31CC48F4100201330 /* imdeli-ios */,
+				AC10A9CF1CC48F4100201330 /* imdeli-iosTests */,
+				AC10A9DA1CC48F4100201330 /* imdeli-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC10A9B21CC48F4100201330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10A9CA1CC48F4100201330 /* LaunchScreen.storyboard in Resources */,
+				AC10A9C71CC48F4100201330 /* Assets.xcassets in Resources */,
+				AC10A9C51CC48F4100201330 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A9CE1CC48F4100201330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A9D91CC48F4100201330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC10A9B01CC48F4100201330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10A9C21CC48F4100201330 /* SecondViewController.m in Sources */,
+				AC10A9BC1CC48F4100201330 /* AppDelegate.m in Sources */,
+				AC10A9BF1CC48F4100201330 /* FirstViewController.m in Sources */,
+				AC10A9B91CC48F4100201330 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A9CC1CC48F4100201330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10A9D51CC48F4100201330 /* imdeli_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10A9D71CC48F4100201330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10A9E01CC48F4100201330 /* imdeli_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC10A9D21CC48F4100201330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC10A9B31CC48F4100201330 /* imdeli-ios */;
+			targetProxy = AC10A9D11CC48F4100201330 /* PBXContainerItemProxy */;
+		};
+		AC10A9DD1CC48F4100201330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC10A9B31CC48F4100201330 /* imdeli-ios */;
+			targetProxy = AC10A9DC1CC48F4100201330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC10A9C31CC48F4100201330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC10A9C41CC48F4100201330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC10A9C81CC48F4100201330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC10A9C91CC48F4100201330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC10A9E21CC48F4100201330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC10A9E31CC48F4100201330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC10A9E51CC48F4100201330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "imdeli-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.com.msoft.imdeli-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC10A9E61CC48F4100201330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "imdeli-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.com.msoft.imdeli-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC10A9E81CC48F4100201330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "imdeli-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.com.msoft.imdeli-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imdeli-ios.app/imdeli-ios";
+			};
+			name = Debug;
+		};
+		AC10A9E91CC48F4100201330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "imdeli-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.com.msoft.imdeli-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imdeli-ios.app/imdeli-ios";
+			};
+			name = Release;
+		};
+		AC10A9EB1CC48F4100201330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "imdeli-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.com.msoft.imdeli-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "imdeli-ios";
+			};
+			name = Debug;
+		};
+		AC10A9EC1CC48F4100201330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "imdeli-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.com.msoft.imdeli-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "imdeli-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC10A9AF1CC48F4100201330 /* Build configuration list for PBXProject "imdeli-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC10A9E21CC48F4100201330 /* Debug */,
+				AC10A9E31CC48F4100201330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC10A9E41CC48F4100201330 /* Build configuration list for PBXNativeTarget "imdeli-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC10A9E51CC48F4100201330 /* Debug */,
+				AC10A9E61CC48F4100201330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC10A9E71CC48F4100201330 /* Build configuration list for PBXNativeTarget "imdeli-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC10A9E81CC48F4100201330 /* Debug */,
+				AC10A9E91CC48F4100201330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC10A9EA1CC48F4100201330 /* Build configuration list for PBXNativeTarget "imdeli-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC10A9EB1CC48F4100201330 /* Debug */,
+				AC10A9EC1CC48F4100201330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC10A9AC1CC48F4100201330 /* Project object */;
+}
